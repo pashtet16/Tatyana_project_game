@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Дело Оливии Грин</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="time-display" id="currentTime">22:25</div>
+            <h1>Дело Адама Фэрроу</h1>
+        </header>
+
+        <main class="main-menu">
+            <div class="task-buttons">
+                <button class="task-btn" id="task1Button">
+                    <span class="task-number">Задание №1</span>
+                    <span class="task-desc">Доказательства невиновности Томаса</span>
+                    <i class="fas fa-chevron-right"></i>
+                </button>
+
+                <button class="task-btn" id="task2Button">
+                    <span class="ask-number">Задание №2</span>
+                    <span class="task-desc">Соучастница Элизабет</span>
+                    <i class="fas fa-chevron-right"></i>
+                </button>
+
+                <button class="task-btn" id="task3Button">
+                    <span class="task-number">Задание №3</span>
+                    <span class="task-desc">Кто убийца Адама?</span>
+                    <i class="fas fa-chevron-right"></i>
+                </button>
+            </div>
+        </main>
+
+        <footer>
+            <div class="footer-content">
+                <p>© Детективная игра «Поймай Убийцу», 2026</p>
+                <p><a href="#" class="privacy-link">Политика конфиденциальности</a></p>
+                <p>Разработка — РегионПромо</p>
+                <div class="cookies-notice">
+                    <i class="fas fa-cookie-bite"></i>
+                    <span>Мы используем cookies для вашего удобства пользования сайтом</span>
+                    <button class="cookies-btn" id="cookiesButton">OK</button>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <!-- Модальное окно для политики конфиденциальности -->
+    <div id="privacyModal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2>Политика конфиденциальности</h2>
+                <button class="close-modal">&times;</button>
+            </div>
+            <div class="modal-body">
+                <p>Это детективная игра «Поймай Убийцу». Все данные, вводимые вами в игре, используются исключительно для целей игры и не сохраняются на серверах.</p>
+                <p>Мы используем cookies только для обеспечения корректной работы игрового интерфейса и улучшения пользовательского опыта.</p>
+                <p>Разработка игры осуществлена компанией РегионПромо.</p>
+                <p>© Детективная игра «Поймай Убийцу», 2026</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
