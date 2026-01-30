@@ -5,7 +5,7 @@ const tasksData = {
         options: [
             { text: "Газета Вулверхэмптона", correct: false },
             { text: "Досье Джейка", correct: false },
-            { text: "Досье Чарли", correct: false },
+            { text: "Досье Чарли", correct: true },
             { text: "Досье Уильяма", correct: false },
             { text: "Досье Паулы", correct: false },
             { text: "Досье Томаса", correct: false },
@@ -20,10 +20,10 @@ const tasksData = {
             { text: "Фото с места преступления с телом Адама", correct: false },
             { text: "Газетная статья о суде над Томасом", correct: false },
             { text: "Карта города", correct: false },
-            { text: "Маршрут машины", correct: true },
+            { text: "Маршрут машины", correct: false },
             { text: "Фото машины", correct: false },
-            { text: "Рабочее место Томаса", correct: true },
-            { text: "Выписка по счету", correct: true }
+            { text: "Рабочее место Томаса", correct: false },
+            { text: "Выписка по счету", correct: false }
         ]
     },
     2: {
@@ -493,4 +493,5 @@ function closePrivacyModal() {
     if (modal) {
         modal.style.display = 'none';
     }
+
 }
